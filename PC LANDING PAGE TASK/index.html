@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASTERY HUB UGC NET E-BOOKS PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Popup Form -->
+    <div id="popup-form" class="popup">
+        <div class="popup-content">
+            <h2><i>MASTERY HUB UGC NET PREP GUIDE</i></h2>
+            <form id="lead-form">
+                <br>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </br>
+            <br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+        </br>
+        <br>
+                <button type="submit">Submit</button>
+    </br>
+                </form>
+            </form>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+<header class="boxed-header">
+    <div class="header-container">
+        <div class="logo">
+            <img src="C:\Users\priya\Desktop\MHLOGO.jpg" alt="MASTERY HUB" style="height: 150px; width: 250px;">
+        </div>
+        <div class="header-text">
+            <h1><b><i>MASTERY HUB E-BOOKS UGC NET PREP GUIDE</i></b></h1> 
+            <p>ONLINE E-BOOKS TO PREPARE FOR UGC NET</p>
+        </div>
+    </div> 
+</div>
+<!-- Image on the right side -->
+<img src="C:\Users\priya\Desktop\UGC LOGO.png" alt="Book Image" class="header-image" style="height: 150px; width: 350px;">
+</div>
+
+    <!-- Navigation Buttons -->
+    <nav class="nav-buttons">
+        <a href="#hero">HOME</a>
+        <a href="#features">FEATURES</a>
+        <a href="#ebooks">E-BOOKS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+</header>
+<div class="background-container">
+    <section id="hero">
+        <h2>FAST-TRACK YOUR UGC NET SUCCESS WITH OUR E-BOOKS!</h2>
+        <p>Your success starts here. Download now and excel in your preparation.</p>
+        <b><button class="cta-button" onclick="showBooks()">GET STARTED NOW</button></b>
+    </section>
+
+    <section id="features">
+        <div class="features-container">
+            <!-- Text Section with List of Features -->
+            <div class="features-content">
+                <h2><b><i>FEATURES OF MASTERY HUB E-BOOKS</i></b></h2>
+                <ul><b>
+                    <li>Comprehensive study materials.</li>
+                    <li>Expert-curated content for UGC NET preparation.</li>
+                    <li>Downloadable e-books in PDF format.</li>
+                    <li>Practice tests and solutions included.</li>
+                    <li>Lifetime access to all resources.</li>
+                </b>
+                </ul>
+            </div>
+            <!-- Image Section on the Right -->
+            <img src="C:\Users\priya\Desktop\UGC PNG.png" alt="Features Image" class="features-img">
+        </div>
+    </div>
+    </section>
+    
+    
+    <section id="ebooks" style="display: none;">
+        <h2><b>OUR TOP LEADING E-BOOKS</b></h2>
+        <p>GRAB YOUR BOOKS AND GET STARTED OF YOUR DREAM!!!</p>
+        <div class="book-grid">
+            <div class="book-card">
+                <img src="C:\Users\priya\Desktop\NETBOOK.jpg" alt="Book 1" style="height: 200px; width : 250px;">
+                <br>
+                <button onclick="showDetails('Book 1', 'Comprehensive guide for UGC NET Paper 1', '$25')">Details</button>
+            </div>
+            <div class="book-card">
+                <img src="C:\Users\priya\Desktop\NETBOOK2.webp" alt="Book 2" style="height: 200px; width : 250px;">
+                <br>
+                <button onclick="showDetails('Book 2', 'Deep dive into UGC NET Paper 2 - Education', '$20')">Details</button>
+            </div>
+            <div class="book-card">
+                <img src="C:\Users\priya\Desktop\NETBOOK3.png" alt="Book 3" style="height: 200px; width : 250px;">
+                <br>
+                <button onclick="showDetails('Book 3', 'Quick revision guide for UGC NET Paper', '$15')">Details</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="details-section" style="display: none;">
+        <h2><b><i>BOOK DETAILS</i></b></h2>
+        <p id="book-details"></p>
+    </section>
+
+    <footer id="contact">
+        <p>Contact us: officialmasteryhubebookstore@gmail.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
